@@ -1,16 +1,19 @@
-# React + Vite
+## What is Synata?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Synata is an Islamic cognitive companion designed to support Muslims living with mental disabilities, neurodivergent conditions, and physical disabilities. It combines faith-integrated wellness tools with accessibility-first design — so that no matter who you are or how you experience the world, there is a space here for you.
 
-Currently, two official plugins are available:
+The name **Synata** comes from the companion AI at the heart of the app — she is present on every page, responds with Quranic guidance, and adapts to your disability profile and mood.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Who is this for?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Synata is built for:
 
-## Expanding the ESLint configuration
+- Muslims with **ADHD, Autism Spectrum Disorder, Anxiety, Depression, PTSD, OCD**
+- People with **visual impairments** (blind / low vision)
+- People who are **Deaf or hard of hearing**
+- People with **physical disabilities** (motor, mobility)
+- People who are **non-verbal or mute**
+- Anyone who feels unseen by mainstream mental health apps
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
