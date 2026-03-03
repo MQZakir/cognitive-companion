@@ -1,24 +1,24 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { AppProvider, useApp } from './context/AppContext';
-import Sidebar from './components/Sidebar';
-import AccessibilityBar from './components/AccessibilityBar';
-import AmbientAudio from './components/AmbientAudio';
-import SynataChat, { SynataFAB } from './components/SynataChat';
+import { AppProvider, useApp } from './context/AppContext.jsx';
+import Sidebar from './components/Sidebar.jsx';
+import AccessibilityBar from './components/AccessibilityBar.jsx';
+import AmbientAudio from './components/AmbientAudio.jsx';
+import SynataChat, { SynataFAB } from './components/SynataChat.jsx';
 
 // Pages
-import Home from './pages/Home';
-import Companion from './pages/Companion';
-import QuranDhikr from './pages/QuranDhikr';
+import Home from './pages/Home.jsx';
+import Companion from './pages/Companion.jsx';
+import QuranDhikr from './pages/QuranDhikr.jsx';
 import SalahTracker from './pages/Salahtracker.jsx';
-import { MoodTracker } from './pages/OtherPages';
-import { Insights } from './pages/OtherPages';
-import { Journal } from './pages/OtherPages';
-import { Community } from './pages/OtherPages';
-import { Profile } from './pages/OtherPages';
-import { Settings } from './pages/OtherPages';
-import { Focus } from './pages/FocusExercises';
-import { Exercises } from './pages/FocusExercises';
+import { MoodTracker } from './pages/OtherPages.jsx';
+import { Insights } from './pages/OtherPages.jsx';
+import { Journal } from './pages/OtherPages.jsx';
+import { Community } from './pages/OtherPages.jsx';
+import { Profile } from './pages/OtherPages.jsx';
+import { Settings } from './pages/OtherPages.jsx';
+import { Focus } from './pages/FocusExercises.jsx';
+import { Exercises } from './pages/FocusExercises.jsx';
 
 import './index.css';
 
